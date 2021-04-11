@@ -10,7 +10,7 @@ export default function (moduleOptions={}) {
 			fs.writeFileSync(moduleOptions.file, JSON.stringify(errors))
 		}
 		if(moduleOptions.http && moduleOptions.http.url) {
-			await fetch(moduleOptions.url, {
+			await fetch(moduleOptions.http.url, {
 				method: moduleOptions.http.method || 'POST',
 				headers: moduleOptions.http.headers || {},
 				body: JSON.stringify(errors)
