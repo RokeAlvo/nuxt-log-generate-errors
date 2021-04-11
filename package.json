@@ -1,6 +1,6 @@
 {
   "name": "nuxt-log-generate-errors",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "log generate's errors to file or http",
   "main": "index.js",
   "scripts": {
