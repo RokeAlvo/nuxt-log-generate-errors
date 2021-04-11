@@ -20,7 +20,7 @@ interface moduleOptions {
   http?: {
     url: string,
     method?: string // default POST
-    headers: {[key: string]: string}
+    headers?: {[key: string]: string}
   }
 }
 ```
