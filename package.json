@@ -1,0 +1,14 @@
+{
+  "name": "nuxt-log-generate-errors",
+  "version": "1.0.0",
+  "description": "log generate's errors to file or http",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "rokealvo",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
+}
