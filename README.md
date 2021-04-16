@@ -1,5 +1,7 @@
 # Nuxt-module for logging errors during static generation
 
+Write a log to a file or send a request via net
+
 ## Install
 
 ```nmp install -D nuxt-logs-generate-errors```
